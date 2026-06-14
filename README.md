@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.vercel.app/?user=Eynzof&theme=radical&locale=cn" alt="GitHub Streak" />
+  <img src="assets/github-streak.svg" alt="GitHub Streak" />
 </p>
 
 <p align="center">

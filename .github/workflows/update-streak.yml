@@ -1,0 +1,24 @@
+name: Update GitHub Streak
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download latest streak SVG
+        run: |
+          curl -fsSL "https://streak-stats.demolab.com?user=Eynzof&theme=radical" \
+            -o assets/github-streak.svg
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update GitHub streak stats"
+          file_pattern: assets/github-streak.svg
