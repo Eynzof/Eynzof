@@ -1,6 +1,6 @@
-<p align="center">
+
 [![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=Eynzof)](https://github.com/stats-organization/github-stats-extended)
-</p>
+
 
 <p align="center">
   <img src="assets/github-streak.svg" alt="GitHub Streak" />
