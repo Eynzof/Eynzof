@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Eynzof&show_icons=true&theme=radical&locale=cn" alt="GitHub Stats" />
+[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=Eynzof)](https://github.com/stats-organization/github-stats-extended)
 </p>
 
 <p align="center">
